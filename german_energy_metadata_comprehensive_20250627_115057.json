@@ -1,0 +1,244 @@
+{
+  "energy_statistics": {
+    "total_consumption_twh": 460,
+    "industry_consumption_twh": 203,
+    "industry_share": 0.44,
+    "renewable_share": 0.6,
+    "manufacturing_twh": 156,
+    "healthcare_twh": 25,
+    "machinery_twh": 28,
+    "electronics_twh": 15,
+    "food_twh": 22,
+    "construction_twh": 18,
+    "professional_services_twh": 8,
+    "metal_processing_twh": 32,
+    "automotive_twh": 35,
+    "chemicals_twh": 47,
+    "packaging_twh": 12,
+    "pharmaceuticals_twh": 12,
+    "energy_twh": 20,
+    "logistics_twh": 18,
+    "printing_media_twh": 6,
+    "real_estate_twh": 15,
+    "furniture_twh": 8,
+    "manufacturing_employees": 5800,
+    "healthcare_employees": 750,
+    "machinery_employees": 1300,
+    "electronics_employees": 890,
+    "food_employees": 834,
+    "construction_employees": 2200,
+    "professional_services_employees": 1800,
+    "metal_processing_employees": 320,
+    "automotive_employees": 1200,
+    "chemicals_employees": 458,
+    "packaging_employees": 380,
+    "pharmaceuticals_employees": 240,
+    "energy_employees": 650,
+    "logistics_employees": 1800,
+    "printing_media_employees": 180,
+    "real_estate_employees": 1200,
+    "furniture_employees": 280,
+    "data_source": "Destatis + Energy Charts + Industry Associations + Sector Research",
+    "timestamp": "2025-06-27T11:50:57.572606"
+  },
+  "regional_prices": {
+    "Bayern": {
+      "industrial_base_price": 0.1478,
+      "grid_fees": 0.0234,
+      "taxes_levies": 0.0156,
+      "renewable_surcharge": 0.0037,
+      "total_typical": 0.1905,
+      "source": "BAFA + Bayern energy suppliers"
+    },
+    "Nordrhein-Westfalen": {
+      "industrial_base_price": 0.1423,
+      "grid_fees": 0.0219,
+      "taxes_levies": 0.0151,
+      "renewable_surcharge": 0.0037,
+      "total_typical": 0.183,
+      "source": "BAFA + NRW energy suppliers"
+    },
+    "Baden-W\u00fcrttemberg": {
+      "industrial_base_price": 0.1534,
+      "grid_fees": 0.0245,
+      "taxes_levies": 0.0162,
+      "renewable_surcharge": 0.0037,
+      "total_typical": 0.1978,
+      "source": "BAFA + BW energy suppliers"
+    },
+    "Niedersachsen": {
+      "industrial_base_price": 0.1398,
+      "grid_fees": 0.0198,
+      "taxes_levies": 0.0145,
+      "renewable_surcharge": 0.0037,
+      "total_typical": 0.1778,
+      "source": "BAFA + Lower Saxony suppliers"
+    },
+    "Hessen": {
+      "industrial_base_price": 0.1456,
+      "grid_fees": 0.0211,
+      "taxes_levies": 0.0149,
+      "renewable_surcharge": 0.0037,
+      "total_typical": 0.1853,
+      "source": "BAFA + Hessen suppliers"
+    },
+    "Sachsen": {
+      "industrial_base_price": 0.1389,
+      "grid_fees": 0.0189,
+      "taxes_levies": 0.0142,
+      "renewable_surcharge": 0.0037,
+      "total_typical": 0.1757,
+      "source": "BAFA + Saxony suppliers"
+    },
+    "Rheinland-Pfalz": {
+      "industrial_base_price": 0.1445,
+      "grid_fees": 0.0205,
+      "taxes_levies": 0.0148,
+      "renewable_surcharge": 0.0037,
+      "total_typical": 0.1835,
+      "source": "BAFA + RLP suppliers"
+    },
+    "Th\u00fcringen": {
+      "industrial_base_price": 0.1367,
+      "grid_fees": 0.0183,
+      "taxes_levies": 0.0139,
+      "renewable_surcharge": 0.0037,
+      "total_typical": 0.1726,
+      "source": "BAFA + Thuringia suppliers"
+    },
+    "Brandenburg": {
+      "industrial_base_price": 0.1356,
+      "grid_fees": 0.0176,
+      "taxes_levies": 0.0137,
+      "renewable_surcharge": 0.0037,
+      "total_typical": 0.1706,
+      "source": "BAFA + Brandenburg suppliers"
+    }
+  },
+  "dataset_summary": {
+    "total_companies": 1140,
+    "sectors": {
+      "Manufacturing": "200",
+      "Healthcare": "120",
+      "Construction": "120",
+      "Professional Services": "100",
+      "Food Production": "100",
+      "Logistics": "100",
+      "Machinery": "80",
+      "Automotive": "80",
+      "Chemical": "80",
+      "Metal Processing": "80",
+      "Electronics": "80"
+    },
+    "regions": {
+      "Nordrhein-Westfalen": "280",
+      "Bayern": "251",
+      "Baden-W\u00fcrttemberg": "232",
+      "Hessen": "122",
+      "Niedersachsen": "113",
+      "Sachsen": "96",
+      "Th\u00fcringen": "24",
+      "Rheinland-Pfalz": "15",
+      "Brandenburg": "7"
+    },
+    "energy_intensity_stats": {
+      "min": 2000.0,
+      "max": 162124.24883966634,
+      "mean": 31542.93212616776,
+      "median": 22513.034000473555
+    },
+    "price_stats": {
+      "min": 0.10848000000000001,
+      "max": 0.19942000000000001,
+      "mean": 0.14581622678699185,
+      "median": 0.14481193897555705
+    },
+    "sector_stats": {
+      "Automotive": {
+        "kwh_per_employee_mean": 29398.935019375327,
+        "kwh_per_employee_median": 29358.85700630393,
+        "kwh_per_employee_count": 80,
+        "cost_per_kwh_mean": 0.14771360383163765,
+        "cost_per_kwh_median": 0.14769594224863614
+      },
+      "Chemical": {
+        "kwh_per_employee_mean": 99001.92169525819,
+        "kwh_per_employee_median": 99948.85258443336,
+        "kwh_per_employee_count": 80,
+        "cost_per_kwh_mean": 0.1477903102980286,
+        "cost_per_kwh_median": 0.14494236955212123
+      },
+      "Construction": {
+        "kwh_per_employee_mean": 8324.629852082031,
+        "kwh_per_employee_median": 7853.343453649584,
+        "kwh_per_employee_count": 120,
+        "cost_per_kwh_mean": 0.14504466508289038,
+        "cost_per_kwh_median": 0.14579195007095272
+      },
+      "Electronics": {
+        "kwh_per_employee_mean": 15945.67106347369,
+        "kwh_per_employee_median": 15570.086689385706,
+        "kwh_per_employee_count": 80,
+        "cost_per_kwh_mean": 0.14325327905483248,
+        "cost_per_kwh_median": 0.14283958355684429
+      },
+      "Food Production": {
+        "kwh_per_employee_mean": 26519.54844490093,
+        "kwh_per_employee_median": 27110.115717344823,
+        "kwh_per_employee_count": 100,
+        "cost_per_kwh_mean": 0.1451948585347232,
+        "cost_per_kwh_median": 0.14604957273026364
+      },
+      "Healthcare": {
+        "kwh_per_employee_mean": 34242.24903075074,
+        "kwh_per_employee_median": 34524.957433443735,
+        "kwh_per_employee_count": 120,
+        "cost_per_kwh_mean": 0.14719361666268463,
+        "cost_per_kwh_median": 0.14693281161599003
+      },
+      "Logistics": {
+        "kwh_per_employee_mean": 9925.1268440803,
+        "kwh_per_employee_median": 9902.35006793248,
+        "kwh_per_employee_count": 100,
+        "cost_per_kwh_mean": 0.1450557369720721,
+        "cost_per_kwh_median": 0.14416227787336283
+      },
+      "Machinery": {
+        "kwh_per_employee_mean": 21530.791904346235,
+        "kwh_per_employee_median": 21648.64166163648,
+        "kwh_per_employee_count": 80,
+        "cost_per_kwh_mean": 0.14787774548908464,
+        "cost_per_kwh_median": 0.1480026011205231
+      },
+      "Manufacturing": {
+        "kwh_per_employee_mean": 27022.04342099619,
+        "kwh_per_employee_median": 26993.008212655874,
+        "kwh_per_employee_count": 200,
+        "cost_per_kwh_mean": 0.14621035253151426,
+        "cost_per_kwh_median": 0.14460431584647707
+      },
+      "Metal Processing": {
+        "kwh_per_employee_mean": 100788.43611354785,
+        "kwh_per_employee_median": 100228.64825550478,
+        "kwh_per_employee_count": 80,
+        "cost_per_kwh_mean": 0.14396273952731528,
+        "cost_per_kwh_median": 0.1402913916451412
+      },
+      "Professional Services": {
+        "kwh_per_employee_mean": 4687.804811138552,
+        "kwh_per_employee_median": 4565.513921691391,
+        "kwh_per_employee_count": 100,
+        "cost_per_kwh_mean": 0.14446960414647428,
+        "cost_per_kwh_median": 0.13915856391407216
+      }
+    }
+  },
+  "generated_at": "20250627_115057",
+  "data_sources": [
+    "Fraunhofer ISE Energy Charts",
+    "BAFA Energy Price Monitoring",
+    "Destatis Industrial Statistics",
+    "German Industry Association Data",
+    "Sector-Specific Energy Research"
+  ]
+}
