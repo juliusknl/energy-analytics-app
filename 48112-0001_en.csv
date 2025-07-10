@@ -1,0 +1,29 @@
+﻿Tabelle: 48112-0001
+Enterprises (EU), persons employed, turnover, production;;;;;;;;;;;;;;
+value and other business figures: Germany, years, economic;;;;;;;;;;;;;;
+activities (WZ2008 1-/2-/3-/4-digit codes);;;;;;;;;;;;;;
+Cross-sectoral business statistics;;;;;;;;;;;;;;;;;;;;;;;;;;
+Germany;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;Enterprises (EU);;Persons employed;;Employees;;Employees in full-time equivalents;;Staff expenditure;;Gross wages and salaries;;Cost of social insurances;;Turnover;;Gross margin on goods for resale;;Production value;;Gross value added at factor cost;;Gross operating surplus;
+;;;number;number;number;number;number;number;number;number;Mill. EUR;Mill. EUR;Mill. EUR;Mill. EUR;Mill. EUR;Mill. EUR;Mill. EUR;Mill. EUR;Mill. EUR;Mill. EUR;Mill. EUR;Mill. EUR;Mill. EUR;Mill. EUR;Mill. EUR;Mill. EUR
+2022;WZ08-B;Mining and quarrying;1575;e;38947;e;37331;e;34978;e;2467;e;1900;e;567;e;25184;e;410;e;11348;e;5411;e;2944;e
+;WZ08-C;Manufacturing;204554;e;8041604;e;7868166;e;7360903;e;518848;e;411791;e;107057;e;2842708;e;165712;e;2458341;e;773337;e;254489;e
+;WZ08-D;Electricity, gas, steam, air conditioning supply;66352;e;405116;e;316634;e;297812;e;27078;e;19900;e;7178;e;1387737;e;3605;e;1368699;e;87648;e;60570;e
+;WZ08-E;Water supply,sewerage,waste management,remediation;9838;e;308242;e;305636;e;286475;e;16428;e;13069;e;3359;e;86276;e;1046;e;83530;e;33221;e;16793;e
+;WZ08-F;Construction;382005;e;2780210;e;2460625;e;2169220;e;109502;e;85697;e;23805;e;402858;e;1669;e;420307;e;169679;e;60177;e
+;WZ08-G;Wholesale, retail trade, repair of motor vehicles;537521;e;6426772;e;5924954;e;4806445;e;227043;e;187775;e;39268;e;2517366;e;672483;e;740745;e;445431;e;218388;e
+;WZ08-H;Transportation and storage;100877;e;2289690;e;2194930;e;1837758;e;93585;e;75728;e;17857;e;461382;e;.;;309510;e;157169;e;63584;e
+;WZ08-I;Accommodation and food service activities;228672;e;2105691;e;1873477;e;1339610;e;34250;e;27746;e;6504;e;112098;e;.;;109875;e;56139;e;21889;e
+;WZ08-J;Information and communication;130517;e;1626692;e;1506281;e;1322054;e;101644;e;85116;e;16528;e;349733;e;.;;263399;e;151907;e;50262;e
+;WZ08-K;Financial and insurance activities;69740;e;1096384;e;1043769;e;913510;e;98097;e;75906;e;22191;e;639547;e;.;;443369;e;221823;e;123726;e
+;WZ08-L;Real estate activities;185567;e;645669;e;455978;e;363977;e;19062;e;15821;e;3241;e;141922;e;.;;123506;e;82189;e;63127;e
+;WZ08-M;Professional, scientific and technical activities;470484;e;2604868;e;2108791;e;1834649;e;121810;e;101762;e;20048;e;371850;e;.;;300948;e;196305;e;74496;e
+;WZ08-N;Administrative and support service activities;222828;e;3216724;e;3000216;e;2304971;e;92429;e;75626;e;16803;e;295206;e;.;;239588;e;166736;e;74307;e
+;WZ08-P;Education;54156;e;455881;e;402999;e;326828;e;14285;e;11618;e;2667;e;29538;e;.;;28632;e;19046;e;4761;e
+;WZ08-Q;Human health and social work activities;242042;e;5593249;e;5293273;e;4245179;e;208202;e;168772;e;39430;e;374052;e;.;;366430;e;261163;e;52961;e
+;WZ08-R;Arts, entertainment and recreation;83234;e;456543;e;369973;e;253803;e;10642;e;8986;e;1656;e;46703;e;.;;43005;e;26717;e;16075;e
+;WZ08-S;Other service activities;169754;e;623512;e;460881;e;349466;e;10359;e;8366;e;1993;e;36556;e;.;;32173;e;21694;e;11335;e
+;;Total;3159716;e;38715794;e;35623912;e;30047639;e;1705732;e;1375579;e;330153;e;10120715;e;844925;e;7343404;e;2875615;e;1169883;e
+__________
+© Statistisches Bundesamt (Destatis), 2025
+created: 2025-07-10 / 11:07:32

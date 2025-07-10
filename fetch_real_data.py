@@ -5,6 +5,35 @@ import json
 from datetime import datetime
 import time
 
+
+# This is a table of energy consumption by industry in Germany. (latest update: 2017)
+# https://www.destatis.de/EN/Themes/Economic-Sectors-Enterprises/Energy/Use/Tables/energy-consumption-branches.html#63042
+
+# Marktdaten für Preise und Verbrauch von Strom in Deutschland
+# https://www.smard.de/page/home/topic-article/46/215546/industriestrompreise
+#https://www.smard.de/home/downloadcenter/download-marktdaten/?downloadAttributes=%7B%22selectedCategory%22:3,%22selectedSubCategory%22:8,%22selectedRegion%22:%22DE%22,%22selectedFileType%22:%22CSV%22,%22from%22:1704063600000,%22to%22:1752184799999%7D
+
+# MWh / employee (Source: energy_use_by_industry_compact.csv, 48112-0001_en.csv, Chemicals Employees: https://www.zeit.de/wirtschaft/2025-05/wirtschaft-chemie-pharmaindustrie-wachstum-medikamente, Food Employees: https://www.ernaehrungsindustrie.de/wp-content/uploads/2024/07/bve-statistikbroschuere2023.pdf, Automotive Employees: https://www.vda.de/de/themen/Automobil-Insight-2024/Beschaeftigung-der-deutschen-Automobilindustrie-2024, Papier: https://de.statista.com/statistik/daten/studie/180801/umfrage/anzahl-der-beschaeftigten-in-der-papierindustrie-in-deutschland/, Electronics: https://www.sps-magazin.de/markt-trends-technik/produktion-der-deutschen-elektroindustrie-im-april-2024/ , Textiles: https://textil-mode.de/de/verband/branchen/)
+# Manufacturing: 25,80 Mwh (189901433 / 7.260.903 employees)
+# Chemicals: 86,94 Mwh (41731599/ 480.000 employees)
+# Metals: 92,08 Mwh (42355389 Mwh / 460.000 employees)
+# Food: 24,72 Mwh (15737960 Mwh / 636.634 employees)
+# Automotive: 17,17 Mwh (13271605 Mwh / 772.900 emp)
+# Paper: 132,91 MWh (15285686 / 115.000 emp)
+# Electronics: 9,31 ( 8383647 / 900.700)
+# Textiles: 10,94 MWh ( 1356717 / 124.000)
+
+# Energy Pricing Data: 
+# Für  160.000 bis 20 Mio. kWh
+# 2024: 17,09 ct/kWh (15,60 + 1,69 Steuern + Abgaben)
+# 2025: 18,31 ct/kWh (16,12 + 2,19)
+# Für 20 bis 70 Mio. kWh
+# 2024: 16,99 ct/kWh 
+# Für 70 bis 150 Mio. kWh
+# 2024: 14,12 ct/kWh
+
+
+
 class GermanEnergyDataFetcher:
     def __init__(self):
         self.data = {}
